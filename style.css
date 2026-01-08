@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding-top: 16px;
+}
+
+nav{
+    border: 1px solid;
+    margin: 0 120px;
+}
