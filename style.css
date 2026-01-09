@@ -7,12 +7,100 @@
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
+  
+}
+.logo-container{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    height: 60px;
+
+    
+}
+
+.logo-container img{
+    /* border: 1px solid red; */
+    padding: 0 120px 10px ;
+    margin-top: 16px;
+}
+
+.logo-container ul{
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+    align-items: center;
+}
+
+.logo-container ul a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo-container .btn{
+    margin-right: 120px;
+}
+
+nav{
+    border: 1px solid red;
+    margin-top: 0px;
+    gap: 32px;
+}
+
+
+.part-1{
+    border: 1px solid red;
+    text-align: center;
+    width: 1366px;
+    height: 600px;
+    gap: 32px;
+
+
+}
+.part-1 h1{
+    color: white;
+    font-size: 48px;
+}
+.part-1 span{
+    color: #30B868;
+}
+
+.part-1 p{
+    color: #FFFFFF;
 }
 
 header{
     background-color:#ffffff;
-    padding-top: 16px;
+    padding-top: 0;
+    background: url(./images/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1366px;
+    height: 633px;
 }
+.part-1 .sceond-btn{
+    text-align: center;
+    border-radius: 5px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.part-1 .check-1{
+    /* border: 1px solid red; */
+    background-color: white;
+    margin: 10px 680px 100px 500px;
+    font-size: 16px;
+    color: #30B868;
+    border-radius: 20px;
+    padding: 8px;
+    text-align: center;
+
+}
+
 .btn{
     /* border: 1px solid red; */
     background-color: #30B868;
@@ -32,6 +120,35 @@ header{
 .btn img{
     /* border: 1px solid; */
     font-size: 15px;
+}
+
+.part-1 .first-btn{
+    border: none;
+    background-color: #30B868;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 5px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 300;
+}
+.sceond-btn{
+    text-align: center;
+    border-radius: 5px;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 300;
+    border: none;
+}
+
+.pulse-dot-icon{
+    /* border: 1px solid; */
+    padding: 16px;
+    margin-top: 23px;
+    color: #30B868;
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
 }
 
 #card{
