@@ -43,14 +43,14 @@
 }
 
 nav{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 0px;
     gap: 32px;
 }
 
 
 .part-1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
     width: 1366px;
     height: 600px;
